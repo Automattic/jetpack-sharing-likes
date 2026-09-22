@@ -11,3 +11,4 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Initial version.
+- Settings: add the wp-admin Settings > Sharing screen, covering sharing buttons, Like buttons, and where they appear.
