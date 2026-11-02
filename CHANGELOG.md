@@ -9,8 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Add a helper that builds share URLs from an address a reader enters, such as a Mastodon instance.
+- Settings > Sharing: in Comment Likes, note when new posts have comments turned off, with a link to Discussion settings.
+
 ### Changed
+- Explain on the React version of Settings > Sharing that the block placement applies to pages too, and what editing the page template is for.
+- Once a template is saved in the Site Editor, replace the block placement cards with a notice linking to the post and page templates there.
+- Sharing settings: Reword the notice shown on private sites to say that some sharing services aren't available.
 - Show the React version of Settings > Sharing by default. Return false from the `rsm_jetpack_ui_modernization_sharing_likes` filter to keep the PHP screen.
+- Template placements: Start the Sharing Buttons block on X, Facebook and Mastodon, or on WordPress, X and Facebook on WordPress.com, and carry a legacy Press This button over as the WordPress button.
+- Update package dependencies.
+
+### Fixed
+- Offer a single X button when adding sharing buttons on the React version of Settings > Sharing. Sites that already use the older X (Twitter) button keep it.
 
 ## [0.5.1] - 2026-10-28
 ### Changed
